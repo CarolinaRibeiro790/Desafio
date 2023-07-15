@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Montserrat & display=swap');
+
+:root{
+    --cor1: #232730;
+    --cor2: #1AE59B;
+    --cor3: #1C1F26;
+    --cor4: #D3D4D6;
+    --cor5: #ff7300;
+    --fonte: 'Montserrat', sans-serif;
+}
+
+.partedois{
+    width: 100%;
+    background-color:  var(--cor3);
+    height: 520px;
+    padding: 80px 150px;
+    font-family:var(--fonte);
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;  
+}
+.partedoisesquerdo{
+    width: 50%;    
+} 
+.partedoisdireito{
+    width: 45%;
+    height: 550px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.tit{
+    color: var(--cor2);
+    font-size: 41px;
+    line-height: 120%;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text{
+    color: var(--cor4);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    font-family: var(--fonte);
+
+}
