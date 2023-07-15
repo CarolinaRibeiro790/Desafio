@@ -61,9 +61,9 @@
         </div>
     </section>
 
-    <section class="partetres"><a id="comofunciona"></a>
+    <section class="partetres">
 
-        <div class="partetrescima">
+        <div class="partetrescima"><a id="comofunciona"></a>
             <h2 class="titu">Como funciona?</h2>
             <p class="texto">Fornecemos capital para que o seu negócio consiga crescer de forma saudável e que os investidores <br> tenham
                 uma rentabilidade superior a do mercado.</p>
@@ -123,9 +123,9 @@
 
     </section>
 
-    <section class="partesete"><a id="duvidas"></a>
+    <section class="partesete">
         
-        <div class="cima6">
+        <div class="cima6"><a id="duvidas"></a>
             <p class="subt">Ficou alguma dúvida?</p>
             <h3 class="titu5">Perguntas frequentes</h3>
         </div>
@@ -167,7 +167,7 @@
     <section class="parteoito">
         <div class="ladoesquedopt8">
             <h3 class="titulo8">Precisa de ajuda?</h3>
-            <p class="textosub8">Entre em contato conosco em nossos canais de
+            <p class="textosub8">Entre em contato conosco em nossos canais de <br>
                 atendimento.</p>
 
             <div class="ctt">
@@ -188,33 +188,38 @@
 
     <div class="formlr">
         <form class="formul" method="post" autocomplete="on">
-
-            <p>
-                <label for="name" name="nome" id="inome">Nome</label> <br>
+        
+            <fieldset>
+                <legend>Nome</legend>
+        
                 <input class="pt8" type="text" name="nome" id="inome" placeholder="Digite seu nome" required
                     autocomplete="username">
-            </p> <br>
-
-            <p>
-                <label for="e-mail" name="email" id="iemail">E-mail</label> <br>
-                <input class="pt8" type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required> <br>
-            </p> <br>
-
-            <p>
-                <label for="number" name="telefone" id="itelefone">Telefone</label> <br>
-                <input class="pt8" type="tel" name="telefone" id="itelefone" placeholder="Digite seu telefone" required> <br>
-            </p> <br>
-           
-
-            <p>
-                <label for="mensagem">Mensagem</label> <br>
-                <textarea name="mensagem" id="imensagem" cols="30" rows="30" placeholder="Digite sua mensagem"></textarea></p>
+        
+            </fieldset><br>
+        
+        
+            <fieldset>
+                <legend>E-mail</legend>
+                <input class="pt8" type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required>
+            </fieldset><br>
+            <br>
             
+            <fieldset>
+                <legend>Telefone</legend>
+                <input class="pt8" type="tel" name="telefone" id="itelefone" placeholder="Digite seu telefone" required>
+            </fieldset>
+            <br>
+        
+        
+            <fieldset class="textareainput">
+                <legend>Mensagem</legend>
+                <input class="pt8" type="text" name="mensagem" id="imensagem" placeholder="Digite sua mensagem"></input>
+            </fieldset>
             <br> <br>
             <div class="bot"><a class="cont" href="#">Entrar em contato</a></div>
-    </div>
-</div>
-</form>
+            </div>
+            </div>
+        </form>
 
     </section>
 </main>

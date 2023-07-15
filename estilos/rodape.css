@@ -16,22 +16,22 @@ footer{
     margin-bottom: 70px;
 }
 .parteesquerda{
-    width: 50%;
-    margin-left: 120px;
+    width: 60%;
+    margin-left: 50px;
 }
 .dirt{
     display: flex;
     flex-direction: row;
-    padding: -30px;
+    padding: 0px;
+    justify-content: space-around;
 }
 .ptredes{
-    width: 30%;
+    width: 35%;
     height: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-right: 40px;
     
 }
 .imglogovert{
@@ -39,10 +39,13 @@ footer{
     margin: 20px 20px 30px 50px ;
 }
 .redessociais{
-    margin-left: 50px;
+    margin-left: 25px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 .redes{
-    margin: -2px;
+    margin: 10px;
     width: 27px;
 }
 .linkpg{
@@ -52,7 +55,7 @@ footer{
 .subtitulo{
     color: var(--cor4);
     font-size: 14px;
-    margin: 30px 20px 10px 10px;
+    margin: 30px 30px 10px 0px;
     padding: 0 20px 20px 10px;
     font-weight: bold;
     line-height: 100%;
@@ -61,21 +64,21 @@ footer{
 .rodapetxt{
     text-decoration: none;
     color: var(--cor2);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 250%;
     font-weight: 300;
     font-style: normal;
-    margin: 0px 15px;
+    margin: 0px 10px;
     padding: 0 5px;
 }
 .partedireita{
-    width: 50%;
-    padding-right: 50px;
-    margin-right: 100px;
+    width: 40%;
+    padding-right: 30px;
+    margin-right: 50px;
 }
 .textofooter{
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
     /* font-weight: 120%; */
     line-height: 150%;
@@ -83,12 +86,12 @@ footer{
     padding: 10px;
 }
 .final{
-    width: 80%;
+    width: 85%;
     border-top: 1px solid white;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-left: 150px;
+    justify-content: space-between;
+    margin-left: 120px;
 
 }
 .textfinal{
@@ -96,5 +99,5 @@ footer{
     font-weight: 300;
     font-style: normal;
     font-size: 12px;
-    padding: 30px;
+    padding: 10px 30px 30px 0px;
 }

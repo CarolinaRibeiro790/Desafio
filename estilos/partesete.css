@@ -38,6 +38,7 @@
     height: 30px;
     border-radius: 15px;
     padding: 30px;
+    font-size: 18px;
 }
 .titu5{
     color: var(--cor2);
